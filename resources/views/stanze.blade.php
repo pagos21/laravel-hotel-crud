@@ -9,6 +9,8 @@
     <tr>
       <th>Room N°</th>
     </tr>
+    {{-- per verificare subito l'output usare:
+    {{json_encode($stanze)}} --}}
   @foreach ($stanze as $stanza)
     <tr>
       <td><a href="{{route('room-show', $stanza -> id)}}"> {{$stanza -> room_number }}</td></a>
@@ -16,4 +18,11 @@
   @endforeach
 </table>
 
+<?php
+class MyClass {
+  const CONST_VALUE = 'A constant value';
+}
+
+echo MyClass::CONST_VALUE;
+?>
 @endsection

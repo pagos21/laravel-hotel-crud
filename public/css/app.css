@@ -29,6 +29,14 @@ header h3 {
   margin-top: 50px;
 }
 
+.container .home a {
+  border: 3px solid orange;
+  padding: 15px;
+  margin: 10px;
+  font-size: 25px;
+  background-color: #ccc;
+}
+
 .container .link {
   margin: 20px auto;
 }
@@ -44,6 +52,11 @@ header h3 {
   text-align: center;
   width: 500px;
   border-collapse: collapse;
+}
+
+.container .payTable {
+  table-layout: auto;
+  width: auto;
 }
 
 .container tr:nth-child(even) {

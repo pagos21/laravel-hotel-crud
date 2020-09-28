@@ -3,7 +3,7 @@
 
 @section('content')
   <div class="link">
-    <a class="a2roomCreate" href="{{route('index')}}">To HomePage!</a>
+    <a class="a2roomCreate" href="{{route('home')}}">To HomePage!</a>
   </div>
 <form class="" action="{{route('room-store')}}" method="post">
   @csrf
